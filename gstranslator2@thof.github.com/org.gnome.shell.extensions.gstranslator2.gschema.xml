@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+	<schema path="/org/gnome/shell/extensions/gstranslator2/" id="org.gnome.shell.extensions.gstranslator2" >
+		<key type="as" name="get-translation">
+			<default><![CDATA[['<Super>s']]]></default>
+			<summary>Get translation</summary>
+		</key>
+		<key type="as" name="get-expanded-translation">
+			<default><![CDATA[['<Shift><Super>s']]]></default>
+			<summary>Get expanded translation</summary>
+		</key>
+		<key type="as" name="next-langs">
+			<default><![CDATA[['<Super>a']]]></default>
+			<summary>Next languages</summary>
+		</key>
+		<key type="as" name="prev-langs">
+			<default><![CDATA[['<Shift><Super>a']]]></default>
+			<summary>Previous languages</summary>
+		</key>
+		<key type="as" name="toggle-menu">
+			<default><![CDATA[['<Super>d']]]></default>
+			<summary>Toggle menu</summary>
+		</key>
+		<key name="auto-close" type="s">
+          <default>'1'</default>
+          <summary>Autoclose menu on return key</summary>
+          <description/>
+        </key>
+        <key name="position" type="s">
+          <default>'2'</default>
+          <summary>Position of translations</summary>
+          <description/>
+        </key>
+        <key name="xoffset" type="s">
+          <default>'10'</default>
+          <summary>Horizontal offset</summary>
+          <description/>
+        </key>
+        <key name="yoffset" type="s">
+          <default>'10'</default>
+          <summary>Vertical offset</summary>
+          <description/>
+        </key>
+        <key name="width" type="s">
+          <default>'80'</default>
+          <summary>Width</summary>
+          <description/>
+        </key>
+        <key name="width-wide" type="s">
+          <default>'120'</default>
+          <summary>Width</summary>
+          <description/>
+        </key>
+        <key name="height" type="s">
+          <default>'700'</default>
+          <summary>Height</summary>
+          <description/>
+        </key>
+        <key name="items" type="s">
+          <default>'en;pl;1|pl;en;1|de;pl;1|pl;de;1'</default>
+          <summary>Items</summary>
+          <description/>
+        </key>
+	</schema>
+</schemalist>

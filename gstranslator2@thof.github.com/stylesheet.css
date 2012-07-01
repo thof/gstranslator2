@@ -1,0 +1,21 @@
+.main-dialog {
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 10px;
+}
+
+.main-label {
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    padding: .5em;
+}
+
+.main-box {
+    padding: 5px;
+}
+
+.lang-label {
+    padding: 5px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}

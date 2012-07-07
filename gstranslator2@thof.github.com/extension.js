@@ -292,6 +292,7 @@ Gstranslator.prototype = {
     _onKeyPress: function(actor, event) {
         let symbol = event.get_key_symbol();
         let state = event.get_state();
+        global.log("State "+state);
         if(symbol == Clutter.KEY_Return) {
             this.textTrans = searchEntry.get_text().replace(/^\s+|\s+$/g, '');
             if(autoCloseVal) {
@@ -307,11 +308,13 @@ Gstranslator.prototype = {
                 }
             }
         }
-        else if(symbol == Clutter.KEY_Right) {
-            _prevLangs();
-        }
-        else if(symbol == Clutter.KEY_Left) {
+        else if(symbol == Clutter.KEY_Right && state == Clutter.ModifierType.CONTROL_MASK) {
             _nextLangs();
+            return true;
+        }
+        else if(symbol == Clutter.KEY_Left && state == Clutter.ModifierType.CONTROL_MASK) {
+            _prevLangs();
+            return true;
         }
     },
     

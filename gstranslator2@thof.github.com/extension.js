@@ -316,6 +316,7 @@ Gstranslator.prototype = {
             _prevLangs();
             return true;
         }
+        return false;
     },
     
     _onOpenStateToggled: function(menu, open) {

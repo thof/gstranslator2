@@ -3,7 +3,7 @@ GSTranslator2
 
 GSTranslator is a simple translator integrated with Gnome Shell. It uses [Google Translate](http://translate.google.com/) technology.
 
-Screenshot
+Screenshots
 ==========
 ![Screen 1](https://dl.dropbox.com/u/1050707/gstranslator/gstrans2_1.png)
 ![Screen 2](https://dl.dropbox.com/u/1050707/gstranslator/gstrans2_2.png)
@@ -23,6 +23,7 @@ Installation
 2. As root, copy schema file `gstranslator2@thof.github.com/org.gnome.shell.extensions.gstranslator2.gschema.xml` to `/usr/share/glib-2.0/schemas/`
 3. Compile schemas (as root): `glib-compile-schemas /usr/share/glib-2.0/schemas/`
 4. Restart shell and enable [extension](https://extensions.gnome.org/local/)
+
 ### GSTranslator2 service:
 1. You can copy `gstranslator2_service.py` to `/usr/local/bin` and make it executable `chmod +x /usr/local/bin/gstranslator2_service.py`
 

@@ -35,8 +35,8 @@ Running
 
 Translation menu
 ================
-By default this menu appear when you press <Super>g or click on "T" button. You can switch beetwen languages using <Control>Left/<Control>Right keys. To get standard 
-translation use Enter key or <Shift>Enter for expanded translation.
+By default this menu appear when you press \<Super\>g or click on "T" button. You can switch beetwen languages using \<Control\>Left/\<Control\>Right keys. To get standard 
+translation use Enter key or \<Shift\>Enter for expanded translation.
 
 Known issues
 ============

@@ -3,11 +3,14 @@ GSTranslator2
 
 GSTranslator is a simple translator integrated with Gnome Shell. It uses [Google Translate](http://translate.google.com/) technology.
 
+Video
+=====
+Short presentation video: [youtu.be/wOMi71Vwvwg](http://youtu.be/wOMi71Vwvwg)
+
 Screenshots
 ==========
 ![Screen 1](https://dl.dropbox.com/u/1050707/gstranslator/gstrans2_1.png)
 ![Screen 2](https://dl.dropbox.com/u/1050707/gstranslator/gstrans2_2.png)
-
 
 Dependencies
 ============

@@ -67,7 +67,7 @@ class Gstranslator(dbus.service.Object):
     
     def getGoogleTranslation(self, text_trans):
         headers = {'User-Agent' : 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'}
-        text = urllib2.quote(text_trans.encode('utf8'))
+        text = urllib2.quote(text_trans)
         url = 'http://translate.google.com/translate_a/t?client=json&sl='+self.languages_list[self.current_index][0]+'&tl='+self.languages_list[self.current_index][1]+'&hl='+self.languages_list[self.current_index][1]+'&text='+text
         request = urllib2.Request(url, '', headers)
         #print("Request. Wait...")
